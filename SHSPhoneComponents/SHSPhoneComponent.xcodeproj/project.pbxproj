@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F26EADA1A6EE64F0061C80B /* SHSFlagAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26EACF1A6EE64F0061C80B /* SHSFlagAccessoryView.h */; };
+		3F26EADA1A6EE64F0061C80B /* SHSFlagAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26EACF1A6EE64F0061C80B /* SHSFlagAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F26EADB1A6EE64F0061C80B /* SHSFlagAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26EAD01A6EE64F0061C80B /* SHSFlagAccessoryView.m */; };
-		3F26EADC1A6EE64F0061C80B /* SHSPhoneLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26EAD11A6EE64F0061C80B /* SHSPhoneLibrary.h */; };
+		3F26EADC1A6EE64F0061C80B /* SHSPhoneLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26EAD11A6EE64F0061C80B /* SHSPhoneLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F26EADD1A6EE64F0061C80B /* SHSPhoneLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26EAD21A6EE64F0061C80B /* SHSPhoneLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F26EADE1A6EE64F0061C80B /* SHSPhoneLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26EAD31A6EE64F0061C80B /* SHSPhoneLogic.m */; };
 		3F26EADF1A6EE64F0061C80B /* SHSPhoneNumberFormatter+UserConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26EAD41A6EE64F0061C80B /* SHSPhoneNumberFormatter+UserConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,9 +124,9 @@
 				BEF0E2711A6E6FC400A918D5 /* SHSPhoneComponent.h in Headers */,
 				3F26EAE11A6EE64F0061C80B /* SHSPhoneNumberFormatter.h in Headers */,
 				3F26EADF1A6EE64F0061C80B /* SHSPhoneNumberFormatter+UserConfig.h in Headers */,
-				3F26EADD1A6EE64F0061C80B /* SHSPhoneLogic.h in Headers */,
 				3F26EADA1A6EE64F0061C80B /* SHSFlagAccessoryView.h in Headers */,
 				3F26EADC1A6EE64F0061C80B /* SHSPhoneLibrary.h in Headers */,
+				3F26EADD1A6EE64F0061C80B /* SHSPhoneLogic.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +171,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BEF0E2611A6E6FC400A918D5;
